@@ -6,16 +6,15 @@ h1 {
 }
 
 h1::after {
-    content: "ПОСЛЕ";
+    content: "";
 }
 
+h1::before {
+    content: "";
+}
 
 h1::first-letter {
     color:blue;
-}
-
-p::first-line {
-    color: red;
 }
 
 #title {
